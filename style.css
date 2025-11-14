@@ -14,10 +14,10 @@ h1, h2 {
 
 /* Contêiner principal da Tier List */
 .tier-list-container {
-    max-width: 900px;
+    max-width: 1500px;
     margin: 20px auto;
     border: 3px solid #1a1a1a;
-    border-radius: 8px;
+    /* border-radius: 8px; */
     overflow: hidden; /* Para manter os cantos arredondados */
     background-color: #333; /* Fundo escuro para as labels se destacarem */
 }
@@ -40,11 +40,13 @@ h1, h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    border-right: 2px solid #555;
     
     font-size: 32px;
     font-weight: bold;
     color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 /* Cores das Tiers */
@@ -71,7 +73,7 @@ h1, h2 {
 /* --- Banco de Imagens --- */
 
 .image-pool {
-    max-width: 900px;
+    max-width: 1500px;
     margin: 20px auto;
     padding: 15px;
     min-height: 120px;
@@ -92,11 +94,11 @@ h1, h2 {
 .car-image {
     width: 120px;
     height: 80px;
-    object-fit: cover; /* Garante que a imagem cubra o espaço */
+    object-fit: cover;
     border: 2px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    cursor: grab; /* Indica que é um item arrastável */
+    cursor: grab;
 }
 
 /* Efeito visual ao "pegar" a imagem */
