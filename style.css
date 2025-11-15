@@ -75,6 +75,7 @@ p {
 .tier-b { background-color: #ffff7f; color: #494949; text-shadow: none; } /* Amarelo */
 .tier-c { background-color: #bfff7f; color: #494949; text-shadow: none; } /* Verde */
 .tier-d { background-color: #7fbfff; } /* Azul */
+.tier-e{ background-color: #818181; }
 
 
 /* A área onde as imagens são "soltas" */
@@ -135,7 +136,7 @@ p {
 }
 
 .drag-over {
-    background-color: #4CAF50 !important; /* Verde para indicar drop válido */
+    background-color: rgba(204, 183, 91, 0.8) !important; /* Verde para indicar drop válido */
     opacity: 0.8;
 }
 
